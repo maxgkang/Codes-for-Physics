@@ -1,0 +1,19 @@
+HOW TO FIX NO MODULES ERROR IN VSCode
+
+Cntrl + Shift + p
+
+type "python select interpreter"
+
+selct global 
+
+
+
+
+VS Code 우측 하단의 **Python 버전 표시(3.12.10 (Microsoft Store))**를 클릭하거나, Ctrl + Shift + P를 눌러 **Python: Select Interpreter**를 
+실행합니다.
+
+scipy가 실제로 설치된 올바른 Python 환경(또는 가상환경)을 목록에서 찾아 선택합니다.
+
+Ctrl + Shift + P를 다시 누르고 **Developer: Reload Window**를 실행하여 VS Code 창과 Python 언어 서버를 새로고침합니다.
+
+패키지가 해당 환경에 없다면 새 터미널을 열고 pip install scipy를 다시 실행하여 설치합니다.
